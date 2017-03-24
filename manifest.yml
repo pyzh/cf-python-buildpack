@@ -60,6 +60,12 @@ dependencies:
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.13-linux-x64-f10ace51.tgz
   md5: f10ace51cc91429beacf201ab0d06049
 - name: python
+  version: 2.7.13
+  cf_stacks:
+  - opensusefs2
+  uri: https://s3.amazonaws.com/cf-opensusefs2/python-2.7.13-linux-x64-457bd6d.tgz
+  md5: 6008077c741362b5ff28b4cd9382a7f7
+- name: python
   version: 3.3.5
   cf_stacks:
   - cflinuxfs2
