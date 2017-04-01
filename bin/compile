@@ -48,6 +48,9 @@ cp -r $ROOT_DIR $TMP_ROOT
 ROOT_DIR=$TMP_ROOT
 cd $ROOT_DIR
 
+# Use python from PATH because we point LD_LIBRARY_PATH to /app/.cloudfoundry/python/lib
+sed -i 's,#!/usr/bin/python,#!/usr/bin/env python,' vendor/bpwatch/bpwatch
+
 # Cloud Foundry does not have support for Logplex.
 function bpwatch() {
   :
