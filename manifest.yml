@@ -62,7 +62,7 @@ dependencies:
 - name: python
   version: 2.7.13
   cf_stacks:
-  - opensusefs2
+  - opensuse42
   uri: https://s3.amazonaws.com/cf-opensusefs2/python-2.7.13-linux-x64-457bd6d.tgz
   md5: 6008077c741362b5ff28b4cd9382a7f7
 - name: python
