@@ -65,6 +65,12 @@ dependencies:
 - name: python
   version: 2.7.12
   cf_stacks:
+  - opensuse42
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/python/python-2.7.12-linux-x64-eacbcc80.tgz
+  md5: eacbcc809313f8703399da1e04db21fb
+- name: python
+  version: 2.7.12
+  cf_stacks:
   - cflinuxfs2
   uri: https://buildpacks.cloudfoundry.org/dependencies/python/python-2.7.12-linux-x64-53eeab1c.tgz
   md5: 53eeab1ca60ef85e859a212e24d0ab6a
